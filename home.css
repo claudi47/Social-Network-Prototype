@@ -1,0 +1,165 @@
+body {
+    background: linear-gradient(rgba(255,255,255,0.15), rgba(255,255,255,0.15)), url("https://sfondo.info/i/original/2/9/d/56393.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+body nav {
+    margin-top: -80px;
+    position: fixed;
+    display: flex;
+    background-color: rgb(121, 135, 179);
+    height: 50px;
+    width: 1550px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid snow;
+    z-index: 10;
+}
+
+body nav p {
+    background: none;
+    height: 39px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+#home:hover, #cerca:hover, #post:hover, #ciao:hover {
+    background-color: rgb(167, 202, 233);
+}
+
+div#contenitore {
+    margin-top: 80px;
+    padding: 5px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 450px;
+}
+
+.hidden {
+    display: none;
+}
+
+body div.vedi_likes {
+    z-index: 2;
+    background-color: snow;
+    width: 500px;
+    height: 320px;
+    position: fixed;
+    left: 550px;
+    top: 350px;
+    border: 3px solid black;
+}
+
+.oscurato {
+    opacity: 0.3;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+#user {
+    border-right: 1.5px solid snow;
+}
+
+.div_open {
+    background: linear-gradient(rgba(255,255,255,0.9), rgba(255, 255, 255, 0.9));
+    border: 4px solid  rgb(167, 202, 233);
+    padding: 5px;
+    width: 600px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 30px;
+}
+
+.div_tube {
+    background: linear-gradient(rgba(255,255,255,0.9), rgba(255, 255, 255, 0.9));
+    border: 4px solid  rgb(167, 202, 233);
+    padding: 5px;
+    width: 750px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 30px;
+    margin-left: -80px;
+}
+
+.div_open img {
+    position: absolute;
+    height: 350px;
+    max-height: 90%;
+    width: 270px;
+    max-width: 45%;
+    margin-top: 10px;
+    margin-left: 320px;
+}
+
+.div_open h3, .div_tube h3 {
+    margin-top: -5px;
+    font-style: italic;
+    max-width: 50%;
+}
+
+.div_open p, .div_tube p {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    max-width: 50%;
+}
+
+.div_open button, .div_tube button {
+    max-width: 100px;
+    height: 20px;
+}
+
+.div_tube iframe {
+    position: absolute;
+    height: 230px;
+    max-height: 90%;
+    width: 450px;
+    max-width: 45%;
+    margin-top: 10px;
+    margin-left: 380px;
+}
+
+.div_tube #content {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    max-width: 50%;
+}
+
+.div_tube h4, .div_open h4 {
+    margin-top: -10px;
+    max-width: 50%;
+}
+
+.div_tube h5, .div_open h5 {
+    margin-top: -10px;
+}
+
+.div_open #likes, .div_tube #likes {
+    cursor: pointer;
+}
+
+#likes {
+    margin-top: 20px;
+}

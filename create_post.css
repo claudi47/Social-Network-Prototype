@@ -1,0 +1,153 @@
+body {
+    background: linear-gradient(rgba(255,255,255,0.15), rgba(255,255,255,0.15)), url("https://sfondo.info/i/original/2/9/d/56393.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    z-index: 1;
+    background-attachment: fixed;
+    font-family: 'Nunito', sans-serif;
+}
+
+main nav {
+    position: fixed;
+    display: flex;
+    background-color: rgb(121, 135, 179);
+    height: 50px;
+    width: 1550px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid snow;
+    z-index: 10;
+    margin-top: -110px;
+}
+
+body div#principale {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 20px;
+}
+
+body div#principale div.book, div.song {
+    background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7));
+    margin: 10px;
+    border: 2px solid rgb(121, 135, 179);
+    padding: 15px;
+    width: 300px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+ body div#principale div.book img {
+    max-width: 100%;
+    height: 400px;
+}
+
+#principale div.video iframe {
+    height: 400px;
+}
+
+body div#principale div.book button , .video button{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 490px;
+}
+
+.hidden {
+    display:none;
+}
+
+body div.box_post {
+    background-color: snow;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    opacity: 1;
+    z-index: 9999;
+    top: 200px;
+    left: 400px;
+    height: 30%;
+    max-width: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.oscurato {
+    opacity: 0.3;
+}
+
+body div#principale div.video {
+    background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7));
+    margin: 10px;
+    border: 2px solid rgb(121, 135, 179);
+    padding: 5px;
+    width: 600px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+body nav p {
+    background: none;
+    height: 39px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+a:visited {
+    color: black;
+}
+
+#user {
+    border-right: 1.5px solid snow;
+}
+
+a {
+    text-decoration: none;
+}
+
+#home:hover, #cerca:hover, #post:hover, #ciao:hover {
+    background-color: rgb(167, 202, 233);
+}
+
+#form_iniziale {
+    background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7));
+    position: relative;
+    margin-top: 110px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 20px;
+    border-radius: 25px;
+    border: 3px solid  rgb(121, 135, 179);
+}
+
+#text, #select {
+    margin-top: -10px;
+}
+
+#text input {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background: lightgray;
+}
+
+#button input{
+    border:none;
+    outline: none;
+    border-radius: 20px;
+    padding: 3px;
+    cursor: pointer;
+    background-color: lightgray;
+}
